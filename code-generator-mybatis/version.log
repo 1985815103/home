@@ -1,0 +1,37 @@
+
+功能介绍：灵活、可扩展、可定制
+1、基于Freemarker模板引擎封装、更加灵活；可插拔代码生成器功能，可以基于项目实际情况扩展
+2、基于配置定向对数据表生成关联代码、配置文件；支持覆盖代码（更新日期：20170829）
+3、容易扩展，功能定制，如根据参数字典表生成相应的枚举类型
+4、通过Xml配置支持多种数据库，比如国内的Gbase、Inceptor数据库
+5、生成格式优美的Mapper配置文件、注解Bean
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>版本信息
+版本CodeGen1.1.x
+更新日期：20170818 
+更新内容：改造模板 IMybatisMapperTemplate.ftl IMybatisServiceTemplate.ftl ServiceImplTemplate.ftl，增加Mybatis的分页支持
+
+更新日期：20170823 
+更新内容：修改XmlMybatisMapperTemplate模板的updateByMap生成，Table强制覆盖生成
+
+更新日期：20170826 
+更新内容：优化mybatis的Xml配置文件排版
+
+版本CodeGen1.2.x
+更新日期：20170828
+更新内容：重构代码，抽取BaseMapper、BaseService和BaseServiceImpl三个基本工具类 
+
+更新日期：20170829
+更新内容：
+	<table>标签增加对生成Mybatis的mapper.xml文件的statement配置定向输出，其中可输出statement为
+	insert、get、list、listMap、delete、deleteByMap、update、updateByMap 
+	对应二进制字：11111111（按位对应），1代表生成，0代表不生成；默认全部生成
+	常用crud配置：
+	1、仅查询（01110000）
+	2、全部statement（11111111或者为空）
+	3、基本的增删改（11101010）
+
+更新日期：20170916
+更新内容：
+	增加RunBySingle RunByXml两种运行方式，简化操作
+	对jdbc元数据增加schema支持
