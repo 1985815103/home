@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/dom4j/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-beans-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-context-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-core-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/common/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-aop-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-expression-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-tx-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/spring/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="lib/spring/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-jdbc-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker/freemarker.jar"/>
+	<classpathentry kind="lib" path="lib/springMVC/spring-web-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springMVC/spring-webmvc-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springMVC/spring-webmvc-portlet-4.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/servlet/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/common/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/common/inceptor-driver.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
